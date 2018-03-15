@@ -1,0 +1,16 @@
+@mixin setCustomerIconSize($iconSize) {
+  &__icon {
+    width: $iconSize;
+    height: $iconSize;
+
+    &:after {
+      border-width: $iconSize / 25;
+    }
+  }
+
+  [class^="ing-icon-"],
+  [class*=" ing-icon-"] {
+    top: $iconSize / 10;
+    font-size: $iconSize;
+  }
+}

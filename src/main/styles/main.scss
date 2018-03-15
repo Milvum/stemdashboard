@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'colors';
+@import 'mixins';
+
+.application {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: $backgroundColor;
+  font-family: 'Roboto';
+  -webkit-overflow-scrolling: touch;
+}
+
+button {
+  outline: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+@import 'pages/page';

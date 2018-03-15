@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2015.promise",
+      "es2017"
+    ],
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "allowUnreachableCode": false
+  }
+}
